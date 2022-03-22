@@ -104,7 +104,7 @@ p2p-stardust,                   multiaddr,      0x0115,         draft,
 p2p-circuit,                    multiaddr,      0x0122,         permanent,
 dag-json,                       ipld,           0x0129,         permanent, MerkleDAG json
 udt,                            multiaddr,      0x012d,         draft,
-utp,                            multiaddr,      0x012e,         draft,
+utp,                            multiaddr,      0x012e,         drat,
 unix,                           multiaddr,      0x0190,         permanent,
 thread,                         multiaddr,      0x0196,         draft,     Textile Thread
 p2p,                            multiaddr,      0x01a5,         permanent, libp2p
@@ -117,6 +117,7 @@ garlic32,                       multiaddr,      0x01bf,         draft,     I2P b
 tls,                            multiaddr,      0x01c0,         draft,
 noise,                          multiaddr,      0x01c6,         draft,
 quic,                           multiaddr,      0x01cc,         permanent,
+webtransport,                   multiaddr,      0x01d1,         draft,
 ws,                             multiaddr,      0x01dd,         permanent,
 wss,                            multiaddr,      0x01de,         permanent,
 p2p-websocket-star,             multiaddr,      0x01df,         permanent,
